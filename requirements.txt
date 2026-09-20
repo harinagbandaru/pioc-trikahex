@@ -1,0 +1,5 @@
+torch>=2.1
+numpy>=1.26
+matplotlib>=3.8
+pyscf>=2.6
+pytest>=8.0

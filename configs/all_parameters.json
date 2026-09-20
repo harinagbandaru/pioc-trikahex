@@ -1,0 +1,22 @@
+{
+  "name": "PIOC-TrikaHex",
+  "version": "1.2.0",
+  "units": ["eV", "Angstrom", "fs", "amu"],
+  "constants": {
+    "k_B_eV_per_K": 8.617333262e-5,
+    "hbar_eV_fs": 0.6582119569,
+    "ke2_eV_A": 14.399645,
+    "T_K": 313.15,
+    "beta_per_eV": 37.057379
+  },
+  "dft_live": {
+    "xc": "PBE0",
+    "basis": "def2-SVP",
+    "r_min_A": 2.729,
+    "dE_raw_eV": -0.1098,
+    "dE_cp_eV": -0.0265
+  },
+  "fourier_live": {"K_modes": 8, "P_beads": 32},
+  "ais_live": {"N_paths": 48, "M_stages": 8, "eta": 2.0},
+  "seed": 42
+}

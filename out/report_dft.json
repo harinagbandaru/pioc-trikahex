@@ -1,0 +1,10 @@
+{
+  "engine": "pyscf_dft_cluster",
+  "level": "PBE0/def2-SVP",
+  "cluster": "Al(OH)3 + CO2 (O-down, rigid)",
+  "r_min_A": 2.7285714285714286,
+  "dE_raw_eV": -0.10984263576856565,
+  "dE_cp_eV": -0.02645509460308365,
+  "bsse_eV": 0.083387541165482,
+  "dE_cp_kj": -2.552519802778526
+}
